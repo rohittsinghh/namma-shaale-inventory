@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NammaShalli" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.NammaShalli.Splash" parent="Theme.NammaShalli">
+        <item name="android:windowSplashScreenBackground">#2E7D32</item>
+    </style>
+</resources>
