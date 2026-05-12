@@ -52,6 +52,8 @@ fun AssetRegisterScreen(
     var categoryExpanded by remember { mutableStateOf(false) }
     var locationExpanded by remember { mutableStateOf(false) }
 
+    var readyToLaunchCamera by remember { mutableStateOf(false) }
+
     val galleryLauncher = rememberLauncherForActivityResult(ActivityResultContracts.GetContent()) { uri ->
         uri?.let { viewModel.processPhoto(context, it) }
     }
@@ -59,7 +61,15 @@ fun AssetRegisterScreen(
         if (success) cameraImageUri?.let { viewModel.processPhoto(context, it) }
     }
     val cameraPermissionLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
-        if (granted) cameraImageUri?.let { cameraLauncher.launch(it) }
+        if (granted) readyToLaunchCamera = true
+    }
+
+    // Launch camera on next frame after permission granted — avoids chaining two startActivityForResult calls
+    LaunchedEffect(readyToLaunchCamera) {
+        if (readyToLaunchCamera) {
+            readyToLaunchCamera = false
+            cameraImageUri?.let { cameraLauncher.launch(it) }
+        }
     }
 
     fun launchCamera() {
