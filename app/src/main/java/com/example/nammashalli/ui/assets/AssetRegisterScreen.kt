@@ -1,9 +1,12 @@
 package com.example.nammashalli.ui.assets
 
+import android.Manifest
 import android.app.DatePickerDialog
+import android.content.pm.PackageManager
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.content.ContextCompat
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -55,6 +58,21 @@ fun AssetRegisterScreen(
     val cameraLauncher = rememberLauncherForActivityResult(ActivityResultContracts.TakePicture()) { success ->
         if (success) cameraImageUri?.let { viewModel.processPhoto(context, it) }
     }
+    val cameraPermissionLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+        if (granted) cameraImageUri?.let { cameraLauncher.launch(it) }
+    }
+
+    fun launchCamera() {
+        try {
+            val file = ImageUtil.createImageFile(context)
+            cameraImageUri = ImageUtil.getUriForFile(context, file)
+            if (ContextCompat.checkSelfPermission(context, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
+                cameraLauncher.launch(cameraImageUri!!)
+            } else {
+                cameraPermissionLauncher.launch(Manifest.permission.CAMERA)
+            }
+        } catch (_: Exception) {}
+    }
 
     LaunchedEffect(state.success) {
         if (state.success) onSuccess()
@@ -67,14 +85,7 @@ fun AssetRegisterScreen(
             text = {
                 Column {
                     TextButton(
-                        onClick = {
-                            showImageOptions = false
-                            try {
-                                val file = ImageUtil.createImageFile(context)
-                                cameraImageUri = ImageUtil.getUriForFile(context, file)
-                                cameraLauncher.launch(cameraImageUri!!)
-                            } catch (e: Exception) { /* fallback */ }
-                        },
+                        onClick = { showImageOptions = false; launchCamera() },
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         Icon(Icons.Default.Camera, null)
