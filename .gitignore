@@ -57,3 +57,5 @@ app/src/androidTest/assets/
 
 # Kotlin incremental compilation cache
 .kotlin/
+
+./claude
