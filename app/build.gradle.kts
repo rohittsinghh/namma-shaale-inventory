@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.nammashalli"
+    namespace = "com.nammashalli.inventory"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.nammashalli"
+        applicationId = "com.nammashalli.inventory"
         minSdk = 28
         targetSdk = 35
         versionCode = 1
@@ -19,8 +19,13 @@ android {
     }
 
     buildTypes {
+        debug {
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
+        }
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -30,6 +35,9 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = "11"
     }
     buildFeatures {
         compose = true
