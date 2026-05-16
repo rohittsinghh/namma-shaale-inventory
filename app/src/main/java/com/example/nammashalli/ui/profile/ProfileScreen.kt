@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.profile
+package com.nammashalli.inventory.ui.profile
 
 import android.content.Intent
 import android.net.Uri
@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.ui.theme.*
 
 @Composable
 fun ProfileScreen(

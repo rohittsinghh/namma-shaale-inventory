@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.healthcheck
+package com.nammashalli.inventory.ui.healthcheck
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -18,10 +18,10 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
-import com.example.nammashalli.ui.common.AppTopBar
-import com.example.nammashalli.ui.common.StatusBadge
-import com.example.nammashalli.ui.navigation.Screen
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.ui.common.AppTopBar
+import com.nammashalli.inventory.ui.common.StatusBadge
+import com.nammashalli.inventory.ui.navigation.Screen
+import com.nammashalli.inventory.ui.theme.*
 
 @Composable
 fun HealthCheckSummaryScreen(
@@ -93,14 +93,14 @@ fun HealthCheckSummaryScreen(
                     if (count > 0) {
                         Card(
                             modifier = Modifier.weight(1f),
-                            colors = CardDefaults.cardColors(containerColor = com.example.nammashalli.ui.common.AssetStatus.fromString(status).bgColor),
+                            colors = CardDefaults.cardColors(containerColor = com.nammashalli.inventory.ui.common.AssetStatus.fromString(status).bgColor),
                             shape = RoundedCornerShape(8.dp)
                         ) {
                             Column(modifier = Modifier.padding(8.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                                 Text(count.toString(), fontWeight = FontWeight.Bold, fontSize = 20.sp,
-                                    color = com.example.nammashalli.ui.common.AssetStatus.fromString(status).color)
+                                    color = com.nammashalli.inventory.ui.common.AssetStatus.fromString(status).color)
                                 Text(status.replace("NeedsRepair", "Repair"), fontSize = 10.sp,
-                                    color = com.example.nammashalli.ui.common.AssetStatus.fromString(status).color)
+                                    color = com.nammashalli.inventory.ui.common.AssetStatus.fromString(status).color)
                             }
                         }
                     }

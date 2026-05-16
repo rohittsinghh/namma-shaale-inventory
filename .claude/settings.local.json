@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew assembleDebug)",
+      "Bash(curl -s --max-time 10 \"https://plugins.gradle.org/m2/com/google/devtools/ksp/com.google.devtools.ksp.gradle.plugin/maven-metadata.xml\")",
+      "Bash(curl -s --max-time 15 \"https://repo.maven.apache.org/maven2/com/google/devtools/ksp/symbol-processing-gradle-plugin/maven-metadata.xml\")",
+      "Bash(curl -s --max-time 15 \"https://repo.maven.apache.org/maven2/com/google/dagger/hilt-android-gradle-plugin/maven-metadata.xml\")"
+    ]
+  }
+}

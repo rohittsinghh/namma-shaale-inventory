@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.repairs
+package com.nammashalli.inventory.ui.repairs
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -16,10 +16,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.nammashalli.ui.common.AppTopBar
-import com.example.nammashalli.ui.common.EmptyState
-import com.example.nammashalli.ui.common.RepairPriority
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.ui.common.AppTopBar
+import com.nammashalli.inventory.ui.common.EmptyState
+import com.nammashalli.inventory.ui.common.RepairPriority
+import com.nammashalli.inventory.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
 

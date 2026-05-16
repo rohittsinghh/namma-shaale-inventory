@@ -1,6 +1,6 @@
-package com.example.nammashalli.di
+package com.nammashalli.inventory.di
 
-import com.example.nammashalli.network.GroqApiService
+import com.nammashalli.inventory.network.GroqApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

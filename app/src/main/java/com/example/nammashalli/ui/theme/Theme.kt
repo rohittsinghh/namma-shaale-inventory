@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.theme
+package com.nammashalli.inventory.ui.theme
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme

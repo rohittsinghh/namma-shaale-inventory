@@ -1,9 +1,9 @@
-package com.example.nammashalli.data.local
+package com.nammashalli.inventory.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.nammashalli.data.local.dao.*
-import com.example.nammashalli.data.local.entities.*
+import com.nammashalli.inventory.data.local.dao.*
+import com.nammashalli.inventory.data.local.entities.*
 
 @Database(
     entities = [

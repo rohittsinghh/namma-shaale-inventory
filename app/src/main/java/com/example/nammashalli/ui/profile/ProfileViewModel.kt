@@ -1,13 +1,13 @@
-package com.example.nammashalli.ui.profile
+package com.nammashalli.inventory.ui.profile
 
 import android.content.Context
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.nammashalli.data.repository.UserRepository
-import com.example.nammashalli.utils.EncryptionUtil
-import com.example.nammashalli.utils.ImageUtil
-import com.example.nammashalli.utils.SessionManager
+import com.nammashalli.inventory.data.repository.UserRepository
+import com.nammashalli.inventory.utils.EncryptionUtil
+import com.nammashalli.inventory.utils.ImageUtil
+import com.nammashalli.inventory.utils.SessionManager
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.navigation
+package com.nammashalli.inventory.ui.navigation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -19,15 +19,15 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.navArgument
-import com.example.nammashalli.ui.assets.*
-import com.example.nammashalli.ui.auth.*
-import com.example.nammashalli.ui.dashboard.DashboardScreen
-import com.example.nammashalli.ui.healthcheck.*
-import com.example.nammashalli.ui.issues.*
-import com.example.nammashalli.ui.profile.ProfileScreen
-import com.example.nammashalli.ui.repairs.RepairRequestsScreen
-import com.example.nammashalli.ui.reports.ReportScreen
-import com.example.nammashalli.ui.theme.GreenPrimary
+import com.nammashalli.inventory.ui.assets.*
+import com.nammashalli.inventory.ui.auth.*
+import com.nammashalli.inventory.ui.dashboard.DashboardScreen
+import com.nammashalli.inventory.ui.healthcheck.*
+import com.nammashalli.inventory.ui.issues.*
+import com.nammashalli.inventory.ui.profile.ProfileScreen
+import com.nammashalli.inventory.ui.repairs.RepairRequestsScreen
+import com.nammashalli.inventory.ui.reports.ReportScreen
+import com.nammashalli.inventory.ui.theme.GreenPrimary
 
 private data class BottomTab(
     val screen: Screen,

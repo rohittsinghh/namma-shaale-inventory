@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.auth
+package com.nammashalli.inventory.ui.auth
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -21,8 +21,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.nammashalli.ui.common.AppTopBar
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.ui.common.AppTopBar
+import com.nammashalli.inventory.ui.theme.*
 import kotlinx.coroutines.delay
 
 @Composable

@@ -1,9 +1,9 @@
-package com.example.nammashalli.ui.navigation
+package com.nammashalli.inventory.ui.navigation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.nammashalli.data.repository.RepairRepository
-import com.example.nammashalli.utils.SessionManager
+import com.nammashalli.inventory.data.repository.RepairRepository
+import com.nammashalli.inventory.utils.SessionManager
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import javax.inject.Inject

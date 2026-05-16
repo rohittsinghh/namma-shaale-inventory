@@ -1,12 +1,12 @@
-package com.example.nammashalli.ui.issues
+package com.nammashalli.inventory.ui.issues
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.nammashalli.data.local.entities.AssetEntity
-import com.example.nammashalli.data.local.entities.IssueLogEntity
-import com.example.nammashalli.data.repository.AssetRepository
-import com.example.nammashalli.data.repository.IssueRepository
-import com.example.nammashalli.utils.SessionManager
+import com.nammashalli.inventory.data.local.entities.AssetEntity
+import com.nammashalli.inventory.data.local.entities.IssueLogEntity
+import com.nammashalli.inventory.data.repository.AssetRepository
+import com.nammashalli.inventory.data.repository.IssueRepository
+import com.nammashalli.inventory.utils.SessionManager
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

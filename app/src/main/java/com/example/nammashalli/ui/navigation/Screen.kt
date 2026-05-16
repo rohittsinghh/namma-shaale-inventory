@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.navigation
+package com.nammashalli.inventory.ui.navigation
 
 sealed class Screen(val route: String) {
     data object SignUp : Screen("signup")

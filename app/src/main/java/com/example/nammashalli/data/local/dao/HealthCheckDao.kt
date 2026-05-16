@@ -1,7 +1,7 @@
-package com.example.nammashalli.data.local.dao
+package com.nammashalli.inventory.data.local.dao
 
 import androidx.room.*
-import com.example.nammashalli.data.local.entities.HealthCheckEntity
+import com.nammashalli.inventory.data.local.entities.HealthCheckEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.assets
+package com.nammashalli.inventory.ui.assets
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -19,8 +19,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
-import com.example.nammashalli.ui.common.*
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.ui.common.*
+import com.nammashalli.inventory.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
 

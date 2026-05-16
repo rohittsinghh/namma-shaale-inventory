@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.assets
+package com.nammashalli.inventory.ui.assets
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -19,9 +19,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.nammashalli.data.local.entities.AssetEntity
-import com.example.nammashalli.ui.common.*
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.data.local.entities.AssetEntity
+import com.nammashalli.inventory.ui.common.*
+import com.nammashalli.inventory.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
 

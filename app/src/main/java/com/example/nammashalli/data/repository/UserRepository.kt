@@ -1,8 +1,8 @@
-package com.example.nammashalli.data.repository
+package com.nammashalli.inventory.data.repository
 
-import com.example.nammashalli.data.local.dao.UserDao
-import com.example.nammashalli.data.local.entities.UserEntity
-import com.example.nammashalli.utils.EncryptionUtil
+import com.nammashalli.inventory.data.local.dao.UserDao
+import com.nammashalli.inventory.data.local.entities.UserEntity
+import com.nammashalli.inventory.utils.EncryptionUtil
 import javax.inject.Inject
 import javax.inject.Singleton
 

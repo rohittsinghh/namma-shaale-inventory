@@ -1,12 +1,12 @@
-package com.example.nammashalli.ui.healthcheck
+package com.nammashalli.inventory.ui.healthcheck
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.nammashalli.data.local.entities.AssetEntity
-import com.example.nammashalli.data.local.entities.HealthCheckEntity
-import com.example.nammashalli.data.local.entities.RepairRequestEntity
-import com.example.nammashalli.data.repository.*
-import com.example.nammashalli.utils.SessionManager
+import com.nammashalli.inventory.data.local.entities.AssetEntity
+import com.nammashalli.inventory.data.local.entities.HealthCheckEntity
+import com.nammashalli.inventory.data.local.entities.RepairRequestEntity
+import com.nammashalli.inventory.data.repository.*
+import com.nammashalli.inventory.utils.SessionManager
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

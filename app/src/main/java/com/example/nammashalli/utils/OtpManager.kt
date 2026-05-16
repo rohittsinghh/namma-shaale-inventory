@@ -1,4 +1,4 @@
-package com.example.nammashalli.utils
+package com.nammashalli.inventory.utils
 
 import javax.inject.Inject
 import javax.inject.Singleton

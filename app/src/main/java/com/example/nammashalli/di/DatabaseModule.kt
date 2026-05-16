@@ -1,9 +1,9 @@
-package com.example.nammashalli.di
+package com.nammashalli.inventory.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.nammashalli.data.local.AppDatabase
-import com.example.nammashalli.data.local.dao.*
+import com.nammashalli.inventory.data.local.AppDatabase
+import com.nammashalli.inventory.data.local.dao.*
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

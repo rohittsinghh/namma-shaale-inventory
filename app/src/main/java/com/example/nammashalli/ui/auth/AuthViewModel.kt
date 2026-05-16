@@ -1,10 +1,10 @@
-package com.example.nammashalli.ui.auth
+package com.nammashalli.inventory.ui.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.nammashalli.data.local.entities.UserEntity
-import com.example.nammashalli.data.repository.UserRepository
-import com.example.nammashalli.utils.*
+import com.nammashalli.inventory.data.local.entities.UserEntity
+import com.nammashalli.inventory.data.repository.UserRepository
+import com.nammashalli.inventory.utils.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

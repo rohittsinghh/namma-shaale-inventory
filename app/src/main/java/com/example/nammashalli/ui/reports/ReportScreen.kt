@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.reports
+package com.nammashalli.inventory.ui.reports
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -18,10 +18,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.nammashalli.ui.common.AppTopBar
-import com.example.nammashalli.ui.common.MetricCard
-import com.example.nammashalli.ui.common.SectionHeader
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.ui.common.AppTopBar
+import com.nammashalli.inventory.ui.common.MetricCard
+import com.nammashalli.inventory.ui.common.SectionHeader
+import com.nammashalli.inventory.ui.theme.*
 
 @Composable
 fun ReportScreen(

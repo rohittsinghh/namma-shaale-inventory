@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.issues
+package com.nammashalli.inventory.ui.issues
 
 import android.app.DatePickerDialog
 import androidx.compose.foundation.layout.*
@@ -18,8 +18,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.nammashalli.ui.common.*
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.ui.common.*
+import com.nammashalli.inventory.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
 

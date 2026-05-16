@@ -1,4 +1,4 @@
-package com.example.nammashalli.network
+package com.nammashalli.inventory.network
 
 import com.google.gson.JsonObject
 import com.google.gson.annotations.SerializedName

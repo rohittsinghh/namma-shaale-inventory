@@ -1,7 +1,7 @@
-package com.example.nammashalli.data.repository
+package com.nammashalli.inventory.data.repository
 
-import com.example.nammashalli.data.local.dao.AssetDao
-import com.example.nammashalli.data.local.entities.AssetEntity
+import com.nammashalli.inventory.data.local.dao.AssetDao
+import com.nammashalli.inventory.data.local.entities.AssetEntity
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 import javax.inject.Singleton

@@ -1,4 +1,4 @@
-package com.example.nammashalli
+package com.nammashalli.inventory
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,11 +12,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.compose.rememberNavController
-import com.example.nammashalli.ui.navigation.NavGraph
-import com.example.nammashalli.ui.navigation.Screen
-import com.example.nammashalli.ui.theme.GreenPrimary
-import com.example.nammashalli.ui.theme.NammaShalliTheme
-import com.example.nammashalli.utils.SessionManager
+import com.nammashalli.inventory.ui.navigation.NavGraph
+import com.nammashalli.inventory.ui.navigation.Screen
+import com.nammashalli.inventory.ui.theme.GreenPrimary
+import com.nammashalli.inventory.ui.theme.NammaShalliTheme
+import com.nammashalli.inventory.utils.SessionManager
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

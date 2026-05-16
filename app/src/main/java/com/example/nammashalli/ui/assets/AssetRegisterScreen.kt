@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.assets
+package com.nammashalli.inventory.ui.assets
 
 import android.Manifest
 import android.app.DatePickerDialog
@@ -32,9 +32,9 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
-import com.example.nammashalli.ui.common.*
-import com.example.nammashalli.ui.theme.*
-import com.example.nammashalli.utils.ImageUtil
+import com.nammashalli.inventory.ui.common.*
+import com.nammashalli.inventory.ui.theme.*
+import com.nammashalli.inventory.utils.ImageUtil
 import java.text.SimpleDateFormat
 import java.util.*
 

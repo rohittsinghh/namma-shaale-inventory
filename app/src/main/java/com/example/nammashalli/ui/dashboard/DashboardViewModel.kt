@@ -1,9 +1,9 @@
-package com.example.nammashalli.ui.dashboard
+package com.nammashalli.inventory.ui.dashboard
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.nammashalli.data.repository.*
-import com.example.nammashalli.utils.SessionManager
+import com.nammashalli.inventory.data.repository.*
+import com.nammashalli.inventory.utils.SessionManager
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

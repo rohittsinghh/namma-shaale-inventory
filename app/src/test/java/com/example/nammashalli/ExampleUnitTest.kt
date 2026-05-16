@@ -1,4 +1,4 @@
-package com.example.nammashalli
+package com.nammashalli.inventory
 
 import org.junit.Test
 

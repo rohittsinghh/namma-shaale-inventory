@@ -1,4 +1,4 @@
-package com.example.nammashalli.utils
+package com.nammashalli.inventory.utils
 
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties

@@ -1,7 +1,7 @@
-package com.example.nammashalli.data.repository
+package com.nammashalli.inventory.data.repository
 
-import com.example.nammashalli.data.local.dao.HealthCheckDao
-import com.example.nammashalli.data.local.entities.HealthCheckEntity
+import com.nammashalli.inventory.data.local.dao.HealthCheckDao
+import com.nammashalli.inventory.data.local.entities.HealthCheckEntity
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 import javax.inject.Singleton

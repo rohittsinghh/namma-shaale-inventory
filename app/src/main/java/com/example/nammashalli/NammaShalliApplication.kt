@@ -1,4 +1,4 @@
-package com.example.nammashalli
+package com.nammashalli.inventory
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

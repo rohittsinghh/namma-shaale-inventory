@@ -1,4 +1,4 @@
-package com.example.nammashalli.utils
+package com.nammashalli.inventory.utils
 
 import android.content.Context
 import androidx.datastore.core.DataStore

@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.healthcheck
+package com.nammashalli.inventory.ui.healthcheck
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -17,8 +17,8 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
-import com.example.nammashalli.ui.navigation.Screen
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.ui.navigation.Screen
+import com.nammashalli.inventory.ui.theme.*
 
 @Composable
 fun HealthCheckScreen(

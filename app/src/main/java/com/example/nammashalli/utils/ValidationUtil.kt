@@ -1,4 +1,4 @@
-package com.example.nammashalli.utils
+package com.nammashalli.inventory.utils
 
 object ValidationUtil {
 

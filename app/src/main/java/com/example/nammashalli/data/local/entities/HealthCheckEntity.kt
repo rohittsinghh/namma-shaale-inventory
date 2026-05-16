@@ -1,4 +1,4 @@
-package com.example.nammashalli.data.local.entities
+package com.nammashalli.inventory.data.local.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

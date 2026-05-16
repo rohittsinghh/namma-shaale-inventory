@@ -1,4 +1,4 @@
-package com.example.nammashalli.ui.common
+package com.nammashalli.inventory.ui.common
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -14,8 +14,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.nammashalli.ui.theme.GreenPrimary
-import com.example.nammashalli.ui.theme.TextSecondary
+import com.nammashalli.inventory.ui.theme.GreenPrimary
+import com.nammashalli.inventory.ui.theme.TextSecondary
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

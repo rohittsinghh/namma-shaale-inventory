@@ -1,7 +1,7 @@
-package com.example.nammashalli.ui.common
+package com.nammashalli.inventory.ui.common
 
 import androidx.compose.ui.graphics.Color
-import com.example.nammashalli.ui.theme.*
+import com.nammashalli.inventory.ui.theme.*
 
 enum class AssetStatus(val label: String, val color: Color, val bgColor: Color, val emoji: String) {
     GOOD("Good", StatusGreen, StatusGreenBg, "✓"),
