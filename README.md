@@ -1,5 +1,5 @@
 # Namma-Shaale Inventory
-### School Asset Management System for Karnataka Government Schools
+### School Asset Management System for Government Schools
 
 > A mobile-first Android app that digitizes asset tracking, health inspections, and maintenance reporting for government schools under the **Namma-Shaale** initiative — powered by AI insights.
 
@@ -401,7 +401,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
 
 ```bash
 # 1. Fork and clone
-git clone https://github.com/<your-username>/namma-shaale-inventory.git
+git clone https://github.com/rohittsinghh/namma-shaale-inventory.git
 
 # 2. Create a feature branch
 git checkout -b feature/your-feature-name
